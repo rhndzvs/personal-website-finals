@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhundei's Personal Profile Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/theme.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">rhndzvs.</a>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="support.html" class="active">Support</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <section class="resources" id="resources">
+        <div class="resources-container">
+            <h2 class="heading">Valuable <span>Resources</span></h2>
+
+            <div class="resources-wrapper">
+                <div class="resources-box mySwiper">
+                    <div class="resources-content swiper-wrapper">
+                        <div class="resources-slide swiper-slide">
+                            <img src="images/resources-1.jpg" alt="ChatGPT Logo">
+                            <h3>ChatGPT</h3>
+                            <p>ChatGPT has been an invaluable resource in developing this website. It helped me troubleshoot coding issues, suggested best practices for web development, and assisted in optimizing my code structure. Its ability to explain complex concepts in simple terms enhanced my learning experience and improved my coding efficiency.</p>
+                        </div>
+
+                        <div class="resources-slide swiper-slide">
+                            <img src="images/resources-2.png" alt="W3Schools Logo">
+                            <h3>W3Schools</h3>
+                            <p>W3Schools served as my primary reference for HTML, CSS, and JavaScript fundamentals. Its comprehensive tutorials, practical examples, and interactive coding environment helped me understand web development concepts clearly. The platform's well-organized documentation made it easy to implement various features in my website.</p>
+                        </div>
+
+                        <div class="resources-slide swiper-slide">
+                            <img src="images/resources-3.png" alt="Boxicons Logo">
+                            <h3>Boxicons</h3>
+                            <p>Boxicons provided the beautiful and modern icons used throughout this website. Its extensive collection of high-quality icons enhanced the visual appeal and user experience of my site. The simple integration process and customization options made it perfect for creating an engaging user interface.</p>
+                        </div>
+
+                        <div class="resources-slide swiper-slide">
+                            <img src="images/resources-4.png" alt="ScrollReveal Logo">
+                            <h3>ScrollReveal</h3>
+                            <p>ScrollReveal added elegant scroll animations to my website, making the user experience more dynamic and engaging. This library helped me create smooth transitions and reveal effects for various elements, enhancing the overall presentation of my content without compromising performance.</p>
+                        </div>
+
+                        <div class="resources-slide swiper-slide">
+                            <img src="images/resources-5.svg" alt="Swiper Logo">
+                            <h3>SwiperJS</h3>
+                            <p>SwiperJS enabled me to create this modern and responsive slider for showcasing resources. Its touch-enabled features, smooth transitions, and extensive customization options made it perfect for building an interactive and user-friendly carousel that works seamlessly across all devices.</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feedback" id="feedback">
+        <h2 class="heading">Leave a <span>Comment!</span></h2>
+
+        <div class="feedback-container">
+            <div class="feedback-form">
+                <form id="feedback-form">
+                    <div class="input-box">
+                        <input type="text" placeholder="Full Name" required>
+                    </div>
+
+                    <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+
+            <div class="comments-section">
+                <h3>Recent Comments</h3>
+                <div id="comments-container"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&copy; 2024 Rhundei Zen Ballesteros. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script type="module" src="js/feedback.js"></script>
+</body>
+
+</html>
